@@ -35,7 +35,13 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/_ext/1959d15e/GameObject.o \
+	${OBJECTDIR}/_ext/8aa89342/Actor.o \
+	${OBJECTDIR}/_ext/8aa89342/Enemy.o \
+	${OBJECTDIR}/_ext/8aa89342/EventBox.o \
+	${OBJECTDIR}/_ext/8aa89342/GameObject.o \
+	${OBJECTDIR}/_ext/8aa89342/NPC.o \
+	${OBJECTDIR}/_ext/8aa89342/PlatformObject.o \
+	${OBJECTDIR}/_ext/8aa89342/Player.o \
 	${OBJECTDIR}/_ext/1959d15e/Hitbox.o \
 	${OBJECTDIR}/_ext/1959d15e/Vec2.o \
 	${OBJECTDIR}/main.o
@@ -65,10 +71,40 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/platformer: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/platformer ${OBJECTFILES} ${LDLIBSOPTIONS} -lSDL2
 
-${OBJECTDIR}/_ext/1959d15e/GameObject.o: /home/sam/NetBeansProjects/Platformer/GameObject.cpp 
-	${MKDIR} -p ${OBJECTDIR}/_ext/1959d15e
+${OBJECTDIR}/_ext/8aa89342/Actor.o: /home/sam/NetBeansProjects/Platformer/GameObject/Actor.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/8aa89342
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -I/home/sam/Desktop/Downloads/SDL2-2.0.4/include -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/1959d15e/GameObject.o /home/sam/NetBeansProjects/Platformer/GameObject.cpp
+	$(COMPILE.cc) -g -I/home/sam/Desktop/Downloads/SDL2-2.0.4/include -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/8aa89342/Actor.o /home/sam/NetBeansProjects/Platformer/GameObject/Actor.cpp
+
+${OBJECTDIR}/_ext/8aa89342/Enemy.o: /home/sam/NetBeansProjects/Platformer/GameObject/Enemy.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/8aa89342
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I/home/sam/Desktop/Downloads/SDL2-2.0.4/include -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/8aa89342/Enemy.o /home/sam/NetBeansProjects/Platformer/GameObject/Enemy.cpp
+
+${OBJECTDIR}/_ext/8aa89342/EventBox.o: /home/sam/NetBeansProjects/Platformer/GameObject/EventBox.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/8aa89342
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I/home/sam/Desktop/Downloads/SDL2-2.0.4/include -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/8aa89342/EventBox.o /home/sam/NetBeansProjects/Platformer/GameObject/EventBox.cpp
+
+${OBJECTDIR}/_ext/8aa89342/GameObject.o: /home/sam/NetBeansProjects/Platformer/GameObject/GameObject.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/8aa89342
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I/home/sam/Desktop/Downloads/SDL2-2.0.4/include -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/8aa89342/GameObject.o /home/sam/NetBeansProjects/Platformer/GameObject/GameObject.cpp
+
+${OBJECTDIR}/_ext/8aa89342/NPC.o: /home/sam/NetBeansProjects/Platformer/GameObject/NPC.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/8aa89342
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I/home/sam/Desktop/Downloads/SDL2-2.0.4/include -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/8aa89342/NPC.o /home/sam/NetBeansProjects/Platformer/GameObject/NPC.cpp
+
+${OBJECTDIR}/_ext/8aa89342/PlatformObject.o: /home/sam/NetBeansProjects/Platformer/GameObject/PlatformObject.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/8aa89342
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I/home/sam/Desktop/Downloads/SDL2-2.0.4/include -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/8aa89342/PlatformObject.o /home/sam/NetBeansProjects/Platformer/GameObject/PlatformObject.cpp
+
+${OBJECTDIR}/_ext/8aa89342/Player.o: /home/sam/NetBeansProjects/Platformer/GameObject/Player.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/8aa89342
+	${RM} "$@.d"
+	$(COMPILE.cc) -g -I/home/sam/Desktop/Downloads/SDL2-2.0.4/include -std=c++14 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/8aa89342/Player.o /home/sam/NetBeansProjects/Platformer/GameObject/Player.cpp
 
 ${OBJECTDIR}/_ext/1959d15e/Hitbox.o: /home/sam/NetBeansProjects/Platformer/Hitbox.cpp 
 	${MKDIR} -p ${OBJECTDIR}/_ext/1959d15e

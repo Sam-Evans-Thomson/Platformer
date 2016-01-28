@@ -4,8 +4,14 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/headers/Actor.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/headers/Enemy.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/headers/EventBox.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/headers/GameObject.h</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/Hitbox.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/headers/NPC.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/PlatformObject.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/headers/Player.h</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/Vec2.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -15,8 +21,14 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/Actor.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/Enemy.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/GameObject.cpp</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/Hitbox.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/NPC.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/PlatformObject.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/Player.cpp</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/Vec2.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -54,12 +66,72 @@
           <commandLine>-lSDL2</commandLine>
         </linkerTool>
       </compileType>
-      <item path="/home/sam/NetBeansProjects/Platformer/GameObject.cpp"
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Actor.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/GameObject.h"
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Enemy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/GameObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/NPC.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/PlatformObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/PlatformObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Player.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/headers/Actor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/headers/Enemy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/headers/EventBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/headers/GameObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/headers/NPC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/headers/Player.h"
             ex="false"
             tool="3"
             flavor2="0">
@@ -107,12 +179,72 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="/home/sam/NetBeansProjects/Platformer/GameObject.cpp"
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Actor.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/GameObject.h"
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Enemy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/GameObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/NPC.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/PlatformObject.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/PlatformObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Player.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/headers/Actor.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/headers/Enemy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/headers/EventBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/headers/GameObject.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/headers/NPC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/headers/Player.h"
             ex="false"
             tool="3"
             flavor2="0">

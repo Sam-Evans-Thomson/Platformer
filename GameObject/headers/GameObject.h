@@ -14,6 +14,11 @@
 #ifndef GAMEOBJECT_H
 #define GAMEOBJECT_H
 
+
+#include "../../Hitbox.h" // his includes Vec2.h
+#include <vector>
+
+
 class GameObject {
 public:
     GameObject();
@@ -29,16 +34,37 @@ public:
     void setPos(Vec2 _pos);
     void setPos_P(double x, double y);
     void setPos_P(Vec2 _pos);
-    Vec2 getPos_P();
+    void setHitbox(Hitbox* hb);
     
     double getX();
     double getY();
+    Vec2 getPos_P();
     double getX_P();
     double getY_P();
+    
+    Hitbox* getHitbox();
     
     double getDelta();
     double getDelta_P();
     
+    
+    //_________________________________________________________//
+    //////////////////// ACTIONS /////////////////////////////////
+    //      These will apply to children
+    
+    void move(Vec2 move);
+    void scale(double scale);
+    void scaleX(double scale);
+    void scaleY(double scale);
+    void rotate(double rad);
+    
+    //// INHERITED ACTIONS FROM PARENT MOVEMENT
+    
+    void move(Vec2 move, GameObject* parent);
+    void scale(double scale, GameObject* parent);
+    void scaleX(double scale, GameObject* parent);
+    void scaleY(double scale, GameObject* parent);
+    void rotate(double rad, GameObject* parent);
     
     //_________________________________________________________//
     //////////////////// PARENT /////////////////////////////////
@@ -91,7 +117,10 @@ private:
     std::vector<GameObject*> childObjects;
     
     GameObject* parentObject;
+    
+    Hitbox* hitbox;
 };
+
 
 #endif /* GAMEOBJECT_H */
 

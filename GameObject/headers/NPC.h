@@ -5,20 +5,23 @@
  */
 
 /* 
- * File:   GameObject.cpp
+ * File:   NPC.h
  * Author: sam
- * 
- * Created on 28 January 2016, 2:16 PM
+ *
+ * Created on 28 January 2016, 4:20 PM
  */
 
-#include "GameObject.h"
+#ifndef NPC_H
+#define NPC_H
 
-GameObject::GameObject() {
-}
+class NPC : public Actor {
+public:
+    NPC();
+    NPC(const NPC& orig);
+    virtual ~NPC();
+private:
 
-GameObject::GameObject(const GameObject& orig) {
-}
+};
 
-GameObject::~GameObject() {
-}
+#endif /* NPC_H */
 

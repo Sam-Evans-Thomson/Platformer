@@ -11,7 +11,7 @@
  * Created on 20 January 2016, 10:22 PM
  */
 
-#include "Hitbox.h"
+#include "../Hitbox.h"
 
 
 

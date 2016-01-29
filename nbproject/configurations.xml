@@ -4,17 +4,33 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/Actor.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/ActivateBox.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/Actor/Actor.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Window/Camera.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Window/Canvas.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/ClimbBox.h</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/headers/Enemy.h</itemPath>
-      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/EventBox.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/FogBox.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Game.h</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/GameObject.h</itemPath>
-      <itemPath>/home/sam/NetBeansProjects/Platformer/Hitbox.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/GrabBox.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Physics/Hitbox.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/HurtBox.h</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/Player/InputComponent.h</itemPath>
-      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/NPC.h</itemPath>
-      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/PlatformObject.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Level/Level.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Level/LevelManager.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Level/LevelSegment.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/LootBox.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/Actor/NPC.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/Platform/PlatformObject.h</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/Player/Player.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/MainMenu/StartMenu.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/StartMenu/StartMenu.h</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/Player/StateComponent.h</itemPath>
-      <itemPath>/home/sam/NetBeansProjects/Platformer/Vec2.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/TerrainBox.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Physics/Vec2.h</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/ZAxisBox.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -23,17 +39,33 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/ActivateBox.cpp</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/source/Actor.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Window/source/Camera.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Window/source/Canvas.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/ClimbBox.cpp</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/source/Enemy.cpp</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/source/EventBox.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/FogBox.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Game.cpp</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/source/GameObject.cpp</itemPath>
-      <itemPath>/home/sam/NetBeansProjects/Platformer/Hitbox.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/GrabBox.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Physics/source/Hitbox.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/HurtBox.cpp</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/Player/source/InputComponent.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Level/Level.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Level/LevelManager.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Level/LevelSegment.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/LootBox.cpp</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/source/NPC.cpp</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/source/PlatformObject.cpp</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/Player/source/Player.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/MainMenu/source/StartMenu.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/StartMenu/source/StartMenu.cpp</itemPath>
       <itemPath>/home/sam/NetBeansProjects/Platformer/Player/source/StateComponent.cpp</itemPath>
-      <itemPath>/home/sam/NetBeansProjects/Platformer/Vec2.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/TerrainBox.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/Physics/source/Vec2.cpp</itemPath>
+      <itemPath>/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/ZAxisBox.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -70,14 +102,109 @@
           <commandLine>-lSDL2</commandLine>
         </linkerTool>
       </compileType>
-      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Actor.h"
+      <item path="/home/sam/NetBeansProjects/Platformer/Game.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Game.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox.h"
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Actor/Actor.h"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Actor/NPC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/ActivateBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/ClimbBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/EventBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/FogBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/GrabBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/HurtBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/LootBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/TerrainBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/ZAxisBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/ActivateBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/ClimbBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/FogBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/GrabBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/HurtBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/LootBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/TerrainBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/ZAxisBox.cpp"
+            ex="false"
+            tool="1"
             flavor2="0">
       </item>
       <item path="/home/sam/NetBeansProjects/Platformer/GameObject/GameObject.h"
@@ -85,12 +212,7 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/NPC.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/PlatformObject.h"
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Platform/PlatformObject.h"
             ex="false"
             tool="3"
             flavor2="0">
@@ -130,14 +252,64 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/Hitbox.cpp"
+      <item path="/home/sam/NetBeansProjects/Platformer/Level/Level.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/Hitbox.h"
+      <item path="/home/sam/NetBeansProjects/Platformer/Level/Level.h"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Level/LevelManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Level/LevelManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Level/LevelSegment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Level/LevelSegment.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/MainMenu/StartMenu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/MainMenu/source/StartMenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Physics/Hitbox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Physics/Vec2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Physics/source/Hitbox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Physics/source/Vec2.cpp"
+            ex="false"
+            tool="1"
             flavor2="0">
       </item>
       <item path="/home/sam/NetBeansProjects/Platformer/Player/InputComponent.h"
@@ -170,14 +342,34 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/Vec2.cpp"
+      <item path="/home/sam/NetBeansProjects/Platformer/StartMenu/StartMenu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/StartMenu/source/StartMenu.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/Vec2.h"
+      <item path="/home/sam/NetBeansProjects/Platformer/Window/Camera.h"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Window/Canvas.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Window/source/Camera.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Window/source/Canvas.cpp"
+            ex="false"
+            tool="1"
             flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
@@ -203,14 +395,109 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Actor.h"
+      <item path="/home/sam/NetBeansProjects/Platformer/Game.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Game.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox.h"
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Actor/Actor.h"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Actor/NPC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/ActivateBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/ClimbBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/EventBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/FogBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/GrabBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/HurtBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/LootBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/TerrainBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/ZAxisBox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/ActivateBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/ClimbBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/FogBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/GrabBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/HurtBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/LootBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/TerrainBox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/EventBox/source/ZAxisBox.cpp"
+            ex="false"
+            tool="1"
             flavor2="0">
       </item>
       <item path="/home/sam/NetBeansProjects/Platformer/GameObject/GameObject.h"
@@ -218,12 +505,7 @@
             tool="3"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/NPC.h"
-            ex="false"
-            tool="3"
-            flavor2="0">
-      </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/PlatformObject.h"
+      <item path="/home/sam/NetBeansProjects/Platformer/GameObject/Platform/PlatformObject.h"
             ex="false"
             tool="3"
             flavor2="0">
@@ -263,14 +545,64 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/Hitbox.cpp"
+      <item path="/home/sam/NetBeansProjects/Platformer/Level/Level.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/Hitbox.h"
+      <item path="/home/sam/NetBeansProjects/Platformer/Level/Level.h"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Level/LevelManager.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Level/LevelManager.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Level/LevelSegment.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Level/LevelSegment.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/MainMenu/StartMenu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/MainMenu/source/StartMenu.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Physics/Hitbox.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Physics/Vec2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Physics/source/Hitbox.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Physics/source/Vec2.cpp"
+            ex="false"
+            tool="1"
             flavor2="0">
       </item>
       <item path="/home/sam/NetBeansProjects/Platformer/Player/InputComponent.h"
@@ -303,14 +635,34 @@
             tool="1"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/Vec2.cpp"
+      <item path="/home/sam/NetBeansProjects/Platformer/StartMenu/StartMenu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/StartMenu/source/StartMenu.cpp"
             ex="false"
             tool="1"
             flavor2="0">
       </item>
-      <item path="/home/sam/NetBeansProjects/Platformer/Vec2.h"
+      <item path="/home/sam/NetBeansProjects/Platformer/Window/Camera.h"
             ex="false"
             tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Window/Canvas.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Window/source/Camera.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/sam/NetBeansProjects/Platformer/Window/source/Canvas.cpp"
+            ex="false"
+            tool="1"
             flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">

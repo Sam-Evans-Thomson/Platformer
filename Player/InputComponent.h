@@ -21,9 +21,8 @@ public:
     InputComponent();
     InputComponent(const InputComponent& orig);
     virtual ~InputComponent();
-    
-    bool holdingSel;
-    
+
+    void init();
     void updateInputs();
     
     buttonState A;
@@ -49,7 +48,11 @@ public:
     double lTr;
     
 private:
-
+    SDL_Joystick *joystick;
+    
+    void axisMotion(SDL_Event &_event);
+    void buttonDown(SDL_Event &_event);
+    
 };
 
 #endif /* INPUTCOMPONENT_H */

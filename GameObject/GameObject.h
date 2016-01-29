@@ -15,7 +15,7 @@
 #define GAMEOBJECT_H
 
 
-#include "../../Hitbox.h" // his includes Vec2.h
+#include "../Physics/Hitbox.h" // his includes Vec2.h
 #include <vector>
 
 
@@ -35,12 +35,14 @@ public:
     void setPos_P(double x, double y);
     void setPos_P(Vec2 _pos);
     void setHitbox(Hitbox* hb);
+    void setZ(int _z);
     
     double getX();
     double getY();
     Vec2 getPos_P();
     double getX_P();
     double getY_P();
+    int getZ();
     
     Hitbox* getHitbox();
     
@@ -110,6 +112,8 @@ private:
     
     Vec2 pos;
     Vec2 pos_P;
+    
+    int z;
     
     double timeDelta;
     double timeDelta_P;

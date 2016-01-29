@@ -81,6 +81,7 @@ private:
  */
 class JumpingState : public PrimaryState {
 public:
+    JumpingState();
     void update(double timeDelta);
 private: 
 };
@@ -93,6 +94,7 @@ private:
  */
 class BlockState : public PrimaryState {
 public:
+    BlockState();
     void update(double timeDelta);
 private:     
 };
@@ -103,6 +105,7 @@ private:
  */
 class DodgeState : public PrimaryState {
 public:
+    DodgeState();
     void update(double timeDelta);
 private:     
 };
@@ -113,6 +116,7 @@ private:
  */
 class DropAttackState : public PrimaryState {
 public:
+    DropAttackState();
     void update(double timeDelta);
 private:     
 };
@@ -123,6 +127,7 @@ private:
  */
 class StunState : public PrimaryState {
 public:
+    StunState();
     void update(double timeDelta);
 private:     
 };
@@ -133,6 +138,7 @@ private:
  */
 class ClimbingState : public PrimaryState {
 public:
+    ClimbingState();
     void update(double timeDelta);
 private:     
 };
@@ -143,6 +149,7 @@ private:
  */
 class GrabbingState : public PrimaryState {
 public:
+    GrabbingState();
     void update(double timeDelta);
 private:     
 };
@@ -153,6 +160,7 @@ private:
  */
 class ActivateState : public PrimaryState {
 public:
+    ActivateState();
     void update(double timeDelta);
 private:     
 };
@@ -162,8 +170,9 @@ private:
 /*
  *  when no Secondary State is needed.
  */
-class NullState : public SecondaryState {
+static class NullState : public SecondaryState {
 public:
+    NullState();
     void update(double timeDelta);
 private:     
 };
@@ -173,6 +182,7 @@ private:
  */
 class Melee1State : public SecondaryState {
 public:
+    Melee1State();
     void update(double timeDelta);
 private:     
 };
@@ -183,6 +193,7 @@ private:
  */
 class Melee2State : public SecondaryState {
 public:
+    Melee2State();
     void update(double timeDelta);
 private:     
 };
@@ -193,6 +204,7 @@ private:
  */
 class RangeState : public SecondaryState {
 public:
+    RangeState();
     void update(double timeDelta);
 private:     
 };
@@ -203,6 +215,7 @@ private:
  */
 class EatingState : public SecondaryState {
 public:
+    EatingState();
     void update(double timeDelta);
 private:     
 };

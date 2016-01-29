@@ -5,20 +5,20 @@
  */
 
 /* 
- * File:   Enemy.cpp
+ * File:   Actor.cpp
  * Author: sam
  * 
- * Created on 28 January 2016, 4:19 PM
+ * Created on 28 January 2016, 4:17 PM
  */
 
-#include "headers/Actor.h"
+#include "../Actor.h"
 
-Enemy::Enemy() {
+Actor::Actor() {
 }
 
-Enemy::Enemy(const Enemy& orig) {
+Actor::Actor(const Actor& orig) {
 }
 
-Enemy::~Enemy() {
+Actor::~Actor() {
 }
 

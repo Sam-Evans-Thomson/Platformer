@@ -11,7 +11,7 @@
  * Created on 28 January 2016, 3:52 PM
  */
 
-#include "headers/EventBox.h"
+#include "../EventBox.h"
 
 EventBox::EventBox() {
 }

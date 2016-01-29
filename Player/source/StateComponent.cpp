@@ -5,20 +5,20 @@
  */
 
 /* 
- * File:   NPC.cpp
+ * File:   StateComponent.cpp
  * Author: sam
  * 
- * Created on 28 January 2016, 4:20 PM
+ * Created on 29 January 2016, 12:16 PM
  */
 
-#include "headers/NPC.h"
+#include "../StateComponent.h"
 
-NPC::NPC() {
+PrimaryState::PrimaryState() {
 }
 
-NPC::NPC(const NPC& orig) {
+PrimaryState::PrimaryState(const PrimaryState& orig) {
 }
 
-NPC::~NPC() {
+PrimaryState::~PrimaryState() {
 }
 

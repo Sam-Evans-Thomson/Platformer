@@ -5,20 +5,20 @@
  */
 
 /* 
- * File:   Actor.cpp
+ * File:   GameObject.cpp
  * Author: sam
  * 
- * Created on 28 January 2016, 4:17 PM
+ * Created on 28 January 2016, 2:16 PM
  */
 
-#include "headers/Actor.h"
+#include "../GameObject.h"
 
-Actor::Actor() {
+GameObject::GameObject() {
 }
 
-Actor::Actor(const Actor& orig) {
+GameObject::GameObject(const GameObject& orig) {
 }
 
-Actor::~Actor() {
+GameObject::~GameObject() {
 }
 

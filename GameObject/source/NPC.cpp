@@ -5,20 +5,20 @@
  */
 
 /* 
- * File:   GameObject.cpp
+ * File:   NPC.cpp
  * Author: sam
  * 
- * Created on 28 January 2016, 2:16 PM
+ * Created on 28 January 2016, 4:20 PM
  */
 
-#include "headers/GameObject.h"
+#include "../NPC.h"
 
-GameObject::GameObject() {
+NPC::NPC() {
 }
 
-GameObject::GameObject(const GameObject& orig) {
+NPC::NPC(const NPC& orig) {
 }
 
-GameObject::~GameObject() {
+NPC::~NPC() {
 }
 

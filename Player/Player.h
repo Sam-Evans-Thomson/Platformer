@@ -6,7 +6,7 @@
 
 /* 
  * File:   Player.h
- * Author: sam
+ * Author: Sam
  *
  * Created on 28 January 2016, 4:18 PM
  */
@@ -14,13 +14,14 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
+
+
 class Player : public Actor {
 public:
     Player();
     Player(const Player& orig);
     virtual ~Player();
 private:
-
 };
 
 #endif /* PLAYER_H */

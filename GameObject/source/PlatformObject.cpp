@@ -11,7 +11,7 @@
  * Created on 28 January 2016, 3:00 PM
  */
 
-#include "headers/PlatformObject.h"
+#include "../PlatformObject.h"
 
 PlatformObject::PlatformObject() {
 }

@@ -14,8 +14,6 @@
 #ifndef INPUTCOMPONENT_H
 #define INPUTCOMPONENT_H
 
-enum buttonState {NOT_PRESSED, PRESSED, HELD};
-
 class InputComponent {
 public:
     InputComponent();
@@ -25,20 +23,24 @@ public:
     void init();
     void updateInputs();
     
-    buttonState A;
-    buttonState B;
-    buttonState X;
-    buttonState Y;
-    buttonState U;
-    buttonState D;
-    buttonState L;
-    buttonState R;
-    buttonState Sel;
-    buttonState Strt;
-    buttonState LB;
-    buttonState RB;
-    buttonState LTh;
-    buttonState RTh;
+    
+    //  These integers show how many frames the button has been held down
+    //  for. If the value is zero the button is released. If it is 1 it has
+    //  just been pressed.
+    unsigned int A;
+    unsigned int B;
+    unsigned int X;
+    unsigned int Y;
+    unsigned int U;
+    unsigned int D;
+    unsigned int L;
+    unsigned int R;
+    unsigned int Sel;
+    unsigned int Strt;
+    unsigned int LB;
+    unsigned int RB;
+    unsigned int LTh;
+    unsigned int RTh;
     
     double lTh_X;
     double lTh_Y;
@@ -52,6 +54,10 @@ private:
     
     void axisMotion(SDL_Event &_event);
     void buttonDown(SDL_Event &_event);
+    void updateButton(unsigned int* button, bool value);
+    
+    void testAxis(int axis, double value);
+    void testButton(int button, bool value);
     
 };
 

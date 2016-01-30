@@ -26,8 +26,10 @@ public:
     virtual ~Game();
     
     void init();
+    void initSDLWindow();
     void run();
     void loop();
+    void close();
     
     
     

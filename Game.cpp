@@ -28,6 +28,7 @@ void Game::run() {
 }
 
 void Game::init() {
+    initSDLWindow();
     //init loading screen 'Menu'
     //render loading screen.
     
@@ -36,6 +37,42 @@ void Game::init() {
     
     // initialize game
     
+    
+}
+
+void Game::initSDLWindow() {
+//    //Initialization flag 
+//    bool success = true; 
+//    
+//    //Initialize SDL 
+//    if( SDL_Init( SDL_INIT_VIDEO ) < 0 ) { 
+//        printf( "SDL could not initialize! SDL Error: %s\n", SDL_GetError() ); 
+//        success = false; 
+//    } else { 
+//    //Create window 
+//        gWindow = SDL_CreateWindow( "SDL Tutorial", 
+//                SDL_WINDOWPOS_UNDEFINED, 
+//                SDL_WINDOWPOS_UNDEFINED, 
+//                SCREEN_WIDTH, 
+//                SCREEN_HEIGHT, 
+//                SDL_WINDOW_SHOWN ); 
+//        
+//        if( gWindow == NULL ) { 
+//            printf( "Window could not be created! SDL Error: %s\n", SDL_GetError() ); 
+//            success = false; 
+//        } else { 
+//        //Initialize PNG loading 
+//            int imgFlags = IMG_INIT_PNG; 
+//            if( !( IMG_Init( imgFlags ) & imgFlags ) ) { 
+//                printf( "SDL_image could not initialize! SDL_image Error: %s\n", 
+//                        IMG_GetError() ); 
+//                success = false; 
+//            } else { 
+//            //Get window surface 
+//                gScreenSurface = SDL_GetWindowSurface( gWindow ); 
+//            } 
+//        } 
+//    } return success;
     
 }
 
@@ -63,6 +100,14 @@ void Game::update() {
 void Game::render() {
     // level Manager render()
     // camera render()
+    // SDL_UpdateWindowSurface(); // swap the double buffers.
+}
+
+void Game::close() {
+    //SDL_DetroyWindow( name_of_window );
+    //name_of_window = NULL;
+    
+    //SDL_Quit();
 }
 
 

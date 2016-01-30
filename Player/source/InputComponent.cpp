@@ -18,6 +18,7 @@
 #define AXIS_BUFFER 0.1
 
 InputComponent::InputComponent() {
+    init();
 }
 
 InputComponent::InputComponent(const InputComponent& orig) {
@@ -29,6 +30,10 @@ InputComponent::~InputComponent() {
 void InputComponent::init() {
     SDL_JoystickEventState(1);
     joystick = SDL_JoystickOpen(0);
+    
+    A=B=X=Y=U=D=L=R=Sel=Strt=LB=RB=LTh=RTh      = 0;
+    lTh_X=lTh_Y=rTh_X=rTh_Y=lTr=rTr             = 0.0;
+
 }
 
 void InputComponent::updateInputs() {
